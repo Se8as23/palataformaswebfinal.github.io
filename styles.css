@@ -127,7 +127,6 @@ footer {
 .social {
   margin: 0px auto;
   display: table;
-  display: table;
 }
 .social li {
   float: left;
@@ -167,7 +166,7 @@ footer {
   label {
     float: right;
     padding: 8px 0px;
-    display: inline-block;
+    display: table-cell;
     cursor: pointer;
   }
   input[type='checkbox']:checked ~ nav {
@@ -393,7 +392,7 @@ p {
   }
 }
 
-/estilo/
+
 
 .content form {
   width: 90%;
